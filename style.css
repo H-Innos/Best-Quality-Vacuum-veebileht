@@ -1,16 +1,20 @@
-ul {
+
+/* terve navbari css */
+.navbar {
+    top:0;                  
+    position:sticky;        /* alla scrollides jääb menüü ekraani üles */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     }
-  
-li {
+
+.navbar-item {
     float: left;
     }
 
-li a {
+.navbar-item a {
     display: block;
     color: white;
     text-align: center;
@@ -18,7 +22,12 @@ li a {
     text-decoration: none;
     }
   
-  /* Change the link color to #111 (black) on hover */
-li a:hover {
+/* Muuda lingi värvi hoverimisel */
+.navbar-item a:hover {
     background-color: #111;
     }
+
+/* Muuda lingi värv peale aktiveerimist */
+.active {
+    background-color: #111 ;
+}
