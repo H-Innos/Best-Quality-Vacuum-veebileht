@@ -1,0 +1,19 @@
+iframe {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    width:600px;
+    height:500px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:600px;
+    height:500px;
+}
