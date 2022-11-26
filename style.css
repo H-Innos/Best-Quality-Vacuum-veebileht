@@ -27,6 +27,7 @@ p, h2 {
 .navbar-item {
     float: left;
     }
+
 .navbar-item a {
     display: block;
     color: white;
@@ -44,39 +45,6 @@ p, h2 {
 .active {
     background-color: #111 ;
 }
-.avalehe-pilt{
-    width: 100%;
-    height: calc(100vh - 120px);
-    background-image: url('../img/header.png');
-    background-size: cover;
-    display: flex;
-    justify-content: top
-    align-items: center;
-}
-
-.avalehe-pilt .logo{
-    height: 500px;
-    display: flex;
-    margin: auto;
-}
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: flex;
-  font-size: 16px;
-  margin: auto;
-  cursor: pointer;
-}
-
-.button1 {background-color: #202020;}
-
-.button:hover {
-    background-color: #3f3f3f;
-}
 
 .bottombar {
     bottom:0;
@@ -92,7 +60,15 @@ p, h2 {
     bottom: 0;
     }
 
-.bottombar-item {
+.bottombar-item-left {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bottombar-item-right {
     float:right;
     display: block;
     color: white;
@@ -100,8 +76,7 @@ p, h2 {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-.bottombar-item img {
+.bottombar-item-right img {
     width:14px;
     height:14px;
 }
