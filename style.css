@@ -53,7 +53,15 @@ p, h2 {
     background-color: #333;
     }
 
-.bottombar-item {
+.bottombar-item-left {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bottombar-item-right {
     float:right;
     display: block;
     color: white;
@@ -61,8 +69,7 @@ p, h2 {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-.bottombar-item img {
+.bottombar-item-right img {
     width:14px;
     height:14px;
 }
