@@ -1,0 +1,38 @@
+.keha{
+   column-count: 4;
+   column-gap: 50 px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  background-color: #E7DED1;
+  text-align: center;
+  font;
+}
+
+price {
+  color: grey;
+  font-size: 23px;
+}
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 14px;
+}
