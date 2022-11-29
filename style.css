@@ -14,16 +14,17 @@ body {
 .wrapper {
     min-height: 100%;
 }
-p, h2 {
+
+.page-content {
     margin-left: 8px;
 }
+
 h1 {
     font-size: 50px;
-    margin-left: 8px;
 }
+
 h3 {
     font-size: 20px;
-    margin-left: 8px;
 }
 h4{
     font-size: 30px;
@@ -81,6 +82,7 @@ h5{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    clear:both;
     }
 
 .bottombar-item-left {
