@@ -1,22 +1,23 @@
 iframe {
     float: left;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 280px;
 }
 
 .mapouter {
     position:relative;
-    margin-left:8px;
+    float:left;
     text-align:right;
-    width:600px;
-    height:500px;
+    margin-right: 30px;
+    width:400px;
+    height:280px;
 }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    width:600px;
-    height:500px;
+    width:400px;
+    height:280px;
 }
 
 .icon {
@@ -24,3 +25,27 @@ iframe {
     width: 14px;
     margin-bottom: -2px;
 }
+
+.info-box {
+    width: 55%;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius:6px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.info {
+    float:left;
+    margin-right:100px;
+}
+
+.page-content {
+    margin-top:70px;
+}
+
+.bottombar {
+    margin-top: 530px;
+}
+
