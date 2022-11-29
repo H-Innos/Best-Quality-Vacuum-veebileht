@@ -1,21 +1,22 @@
-.keha{
-   column-count: 4;
-   column-gap: 50 px;
+.body2{
+   column-count: 6;
+   column-gap: 10 px;
+   column-break-inside: avoid;;
 }
 
 img {
   height: 250px;
-  width: 250px;
+  width: auto;
+  border-radius: 6px;
 }
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 250px;
-  margin: auto;
-  background-color: #E7DED1;
-  text-align: center;
-  font;
-}
+.gallery{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 0;
+      }
 
 price {
   color: grey;
@@ -34,5 +35,72 @@ h3 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 20px;
 }
+
+  h3{
+      text-align: center;
+      font-size: 30px;
+      margin: 0;
+      padding-top: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .content{
+      min-width: 250px;
+      width: 20%;
+      margin: 15px;
+      box-sizing: border-box;
+      text-align: center;
+      border-radius:6px;
+      padding-top: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: .4s;
+      background-color: #FBFBFB;
+  }
+  .content:hover{
+      box-shadow: 0 0 11px rgba(33,33,33,.2);
+      transform: translate(0px, -8px);
+      transition: .6s;
+  }
+  img{
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+  }
+  p{
+      text-align: center;
+      color: #b2bec3;
+      padding: 0 8px;
+  }
+  h6{
+      font-size: 26px;
+      text-align: center;
+      color: #222f3e;
+      margin: 0;
+  }
+
+  button{
+      text-align: center;
+      font-size: 20px;
+      color: #fff;
+      width: 100%;
+      padding: 15px;
+      border:0px;
+      outline: none;
+      cursor: pointer;
+      margin-top: 5px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+  }
+   .buy-1{
+      background-color: #202020;
+      }
+
+   .buy-1:hover{
+      background-color: #3f3f3f;
+      }
+    }

@@ -1,7 +1,7 @@
 /*Siia tuleb terve lehe ühine CSS*/
 
 body {
-    background-color: lightgray;
+    background-color: #F4F4F4 ;
     margin:0px;
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -11,10 +11,16 @@ body {
 p, h2 {
     margin-left: 8px;
 }
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 20px;
+}
 
 .navbar {
     top:0;
-    position: relative;     
+    position: relative;
     list-style-type: none;
     margin: 0;
     margin: 6px 8px;
@@ -48,8 +54,9 @@ p, h2 {
 .bottombar {
     bottom:0;
     right:0;
-    left:0;                  
-    position:static;
+    left:0;
+    top:0;
+    position:relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
