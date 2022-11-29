@@ -18,3 +18,9 @@ iframe {
     width:600px;
     height:500px;
 }
+
+.icon {
+    height: 14px;
+    width: 14px;
+    margin-bottom: -2px;
+}

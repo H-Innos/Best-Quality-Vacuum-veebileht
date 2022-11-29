@@ -1,11 +1,15 @@
 /*Siia tuleb terve lehe ühine CSS*/
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(typekit.com/fonts/source-sans-pro);
+}
 
 body {
     background-color: #F4F4F4 ;
     margin:0px;
-    font-family: 'Source Sans Pro';
+    font-family: Source Sans Pro;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 p, h2 {
@@ -13,9 +17,11 @@ p, h2 {
 }
 h1 {
     font-size: 50px;
+    margin-left: 8px;
 }
 h3 {
     font-size: 20px;
+    margin-left: 8px;
 }
 
 .navbar {
@@ -23,7 +29,7 @@ h3 {
     position: relative;
     list-style-type: none;
     margin: 0;
-    margin: 6px 8px;
+    margin: 0px 8px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
