@@ -6,8 +6,12 @@ body {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
+    height:100%;
 }
 
+.wrapper {
+    min-height: 100%;
+}
 p, h2 {
     margin-left: 8px;
 }
