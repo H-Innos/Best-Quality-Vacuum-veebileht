@@ -10,8 +10,10 @@ body {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
+}git 
+.wrapper {
+    min-height: 100%;
 }
-
 p, h2 {
     margin-left: 8px;
 }
