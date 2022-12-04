@@ -6,7 +6,7 @@
 .pilt {
     display: block;
     width: 100%;
-    height: auto;
+    height: 969px;
 }
 
 iframe {
@@ -60,7 +60,7 @@ iframe {
     left: 0;
     right: 0;
     overflow: hidden;
-    width: 100%;
+    
 }
 .navbar {
     position: absolute;
@@ -68,5 +68,7 @@ iframe {
 }
 .bottombar {
     position: absolute;
+    
 }
+
 
