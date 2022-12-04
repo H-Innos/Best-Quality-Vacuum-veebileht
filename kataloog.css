@@ -1,3 +1,10 @@
+.background {
+  background-image: url('pildid/pilt2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
 img {
   height: 200px;
   width: auto;
@@ -17,7 +24,9 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  color: white;
+  margin-left: 8px;
+  font-size: 35px;
 }
 
 h3 {
@@ -39,9 +48,11 @@ p {
       margin: 30px;
       text-align: center;
       border-radius:6px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       transition: .5s;
-      background-color: #FBFBFB;
+      background-color: #FFFFFF;
   }
   .content:hover{
       box-shadow: 0 0 11px rgba(33,33,33,.2);
