@@ -1,6 +1,5 @@
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-vertical2_btn*/
-/*tee vh ümber*/
 .banner {
   background-image: url('pildid/pilt.jpg');
   background-repeat: no-repeat;
@@ -11,7 +10,6 @@
 button {
   border: none;
   color: white;
-  padding: 15px 29px;
   text-align: center;
   display: flex;
   font-size: 30px;
@@ -24,20 +22,21 @@ button:hover {
     background-color: #3f3f3f;
     box-shadow: 0px 2px 60px 5px #3f3f3f;
 }
-
 button a {
-    color: white;
-    text-decoration: none;
+padding: 20px 25px;
 }
 
 .container {
+  border: 2px solid #f2f2f2;;
+  box-shadow: 0 0 10px 10px rgba(0,0,0, 0.2);
+  background-color: rgba(0,0,0, 0.2);
   left: 500px;
   top: 350px;
   height: auto;
   width: auto;
   position: absolute;
   background-color: clear;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(4px);
   border-radius: 10px;
   padding: 20px 20px;
 }
@@ -59,19 +58,11 @@ font-size: 20px;
     color: white;'
 }
 
-.center {
-  margin: 0px;
-  position: absolute;
-  top: 250%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-}
-
 .bottombar2 {
     bottom:0;
     right:0;
     left:0;
-    top:900px;
+    top:905px;
     position:relative;
     list-style-type: none;
     margin: 0;
