@@ -27,6 +27,7 @@ iframe {
 }
 
 .info-box {
+    min-width: 1000px;
     width: 55%;
     height: 300px;
     box-sizing: border-box;
@@ -46,6 +47,6 @@ iframe {
 }
 
 .bottombar {
-    margin-top: 530px;
+    margin-top: 503px;
 }
 
