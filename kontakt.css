@@ -1,3 +1,14 @@
+.k {
+    position: relative;
+    width: 100%;
+}
+
+.pilt {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 iframe {
     float: left;
     width: 400px;
@@ -26,23 +37,35 @@ iframe {
     margin-bottom: -2px;
 }
 .info-box {
+    min-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.9);
     width: 55%;
     height: 300px;
     box-sizing: border-box;
     border-radius:6px;
     padding-top: 10px;
-    padding-left: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;    
 }
 .info {
+    color: white;
     float:left;
     margin-right:100px;
 }
 .page-content {
     margin-top:70px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
 }
-
+.navbar {
+    position: absolute;
+    width: 99%;
+}
 .bottombar {
-    margin-top: 530px;
+    position: absolute;
 }
 
