@@ -1,14 +1,15 @@
 /*Siia tuleb terve lehe ühine CSS*/
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500&display=swap');
 
 body {
-    background-color: #F4F4F4 ;
+    background-color: #333;
     margin:0px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     height: 100%;
+    zoom: 110%;
 }
 .wrapper {
     min-height: 100%;
@@ -17,39 +18,39 @@ body {
 /* Siin sees on elemendid mis ei ole navigatsioonimenüü või footer */
 .page-content {
     margin-left: 8px;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 20px;
-}
-h4{
-    font-size: 30px;
-    margin-left: 8px;
- }
-h5{
-    font-size: 30px;
-    margin-left: 8px;
- }
- h6{
-    font-size: 20px;
-    margin-left: 8px;
  }
 
- /* Terve navigatsioonimenüü stiil*/
+/*erinevad tekstide suurused jne, mida kasutati*/
+    a {
+        color: white;
+        text-decoration: none;}
+    h1 {
+        font-size: 60px;}
+    h2 {
+      display:flex;
+      justify-content: center;
+      color: white;
+      font-size: 35px;}
+    h3 {
+        font-size: 20px;}
+    h4{
+        font-size: 30px;
+        margin: 0px;}
+    h5{
+        font-size: 30px;
+        margin-left: 8px;}
+     h6{
+      font-size: 26px;
+      text-align: center;
+      color: #222f3e;
+      margin: 0;}
+
+/*navigatsiooni riba*/
 .navbar {
     top:0;
     position: relative;
     list-style-type: none;
     margin: 0;
-    margin: 0px 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -62,24 +63,32 @@ h5{
 
 /* Navigatsioonimenüü lingid */
 .navbar-item a {
+    font-size:18px;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 30px;
     text-decoration: none;
     }
-  
-/* Muudab lingi värvi hoverimisel */
-.navbar-item a:hover {
-    background-color: #111;
-    }
 
-/* Muudab lingi värv peale aktiveerimist */
-.active {
-    background-color: #111 ;
+/*navigatsiooniriba kriipsu idee: https://stackoverflow.com/questions/54616139/how-to-animate-underline-from-left-to-right*/
+.kriips {
+  display: inline-block;
+  padding-bottom:0px;
+  background: linear-gradient(to right, #FFF,#FFF,#FFF);
+  background-position: 0 100%;
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
+}
+.kriips:hover {
+  background-position: 100% 100%;
+  background-size: 100% 3px;
 }
 
-/* Veebilehe footeri stiil*/
+/*alumine info riba*/
 .bottombar {
     bottom:0;
     right:0;
