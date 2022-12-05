@@ -11,7 +11,7 @@
     text-align: justify;
 }
 
-/* container ehk vormindab teskti relatiivselt ja ei mõjuta ülejäänud layout'i */
+/* container, lehe elemendid ja relatiivne vormindus ehk ei mõjuta ülejäänud layout'i */
 .k {
     position: relative;
     width: 100%;
