@@ -72,7 +72,7 @@ body {
 .kriips {
   display: inline-block;
   padding-bottom:0px;
-  background-image: linear-gradient(#FFF 0 0);
+  background: linear-gradient(to right, #FFF,#FFF,#FFF);
   background-position: 0 100%;
   background-size: 0% 3px;
   background-repeat: no-repeat;

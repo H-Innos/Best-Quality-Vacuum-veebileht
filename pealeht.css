@@ -7,7 +7,7 @@
     position: absolute;
 }
 /*"Poodi" nupp, mis viib kataloogi*/
-button {
+.nupp {
   border: none;
   color: white;
   text-align: center;
@@ -18,7 +18,7 @@ button {
   background-color: #202020;
 }
 /*"Poodi" nupp hoverimisel helendab*/
-button:hover {
+.nupp:hover {
   background-color: #3f3f3f;
   box-shadow: 0px 2px 60px 5px #3f3f3f;
 }
@@ -31,13 +31,12 @@ button:hover {
   border: 1px solid #f2f2f2;;
   box-shadow: 0 0 10px 10px rgba(0,0,0, 0.2);
   background-color: rgba(0,0,0, 0.2);
-  background-color: clear;
   backdrop-filter: blur(4px);
   border-radius: 0px;
 }
 /*Kast kuhu sisse läheb nupp, määrab nupu paigutuse*/
 .nupukast {
-   z-index: 2;
+  z-index: 2;
   display:flex;
   justify-content: center;
   align-items:center;
@@ -45,7 +44,7 @@ button:hover {
 }
 /*Muudab nupukasti teksti ääre suuremaks*/
 .nupukast a{
-    padding: 20px 25px;
+    padding: 15px 20px;
 }
 
 /*tekst mõlema kasti sees*/
