@@ -14,6 +14,7 @@ body {
     min-height: 100%;
 }
 
+/* Siin sees on elemendid mis ei ole navigatsioonimenüü või footer */
 .page-content {
     margin-left: 8px;
 }
@@ -42,6 +43,7 @@ h5{
     margin-left: 8px;
  }
 
+ /* Terve navigatsioonimenüü stiil*/
 .navbar {
     top:0;
     position: relative;
@@ -53,10 +55,12 @@ h5{
     background-color: #333;
     }
 
+/* Navigatsioonimenüü nupud */
 .navbar-item {
     float: left;
     }
 
+/* Navigatsioonimenüü lingid */
 .navbar-item a {
     display: block;
     color: white;
@@ -65,16 +69,17 @@ h5{
     text-decoration: none;
     }
   
-/* Muuda lingi värvi hoverimisel */
+/* Muudab lingi värvi hoverimisel */
 .navbar-item a:hover {
     background-color: #111;
     }
 
-/* Muuda lingi värv peale aktiveerimist */
+/* Muudab lingi värv peale aktiveerimist */
 .active {
     background-color: #111 ;
 }
 
+/* Veebilehe footeri stiil*/
 .bottombar {
     bottom:0;
     right:0;
@@ -88,6 +93,7 @@ h5{
     clear:both;
     }
 
+/* Footeri vasakule joondatud elementide stiil*/
 .bottombar-item-left {
     float:left;
     display: block;
@@ -96,6 +102,8 @@ h5{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/* Footeri paremale joondatud elementide stiil*/
 .bottombar-item-right {
     float:right;
     display: block;
@@ -104,6 +112,8 @@ h5{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/* Footeris kasutatud piltide stiil*/
 .bottombar-item-right img {
     width:14px;
     height:14px;

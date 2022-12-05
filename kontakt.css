@@ -1,14 +1,18 @@
+/* Selle sees on kõik lehe elemendid ja selle taustapilt on .pilt*/
 .k {
     position: relative;
     width: 100%;
 }
 
+/* Taustapilt*/
 .pilt {
     display: block;
     width: 100%;
     height: auto;
 }
 
+/* Google Maps kaardi stiil 
+Viide: https://www.embedgooglemap.net/*/
 iframe {
     float: left;
     width: 400px;
@@ -30,12 +34,16 @@ iframe {
     width:400px;
     height:280px;
 }
+/*---------*/
 
+/* Telefoni ja emaili ikoonid*/
 .icon {
     height: 14px;
     width: 14px;
     margin-bottom: -2px;
 }
+
+/* Siin sees on Google Maps ja sisutekst*/
 .info-box {
     min-width: 1000px;
     background-color: rgba(0, 0, 0, 0.9);
@@ -47,11 +55,15 @@ iframe {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-left: 10px;    
 }
+
+/* Sisuteksti blokid*/
 .info {
     color: white;
     float:left;
     margin-right:100px;
 }
+
+/* Täpsustab page-content asukohta*/
 .page-content {
     margin-top:70px;
     position: absolute;
@@ -61,10 +73,14 @@ iframe {
     overflow: hidden;
     
 }
+
+/* Paneb navigatsioonimenüü teksti peale */
 .navbar {
     position: absolute;
     width: 100%;
 }
+
+/* Paneb footeri lehe alla serva ja taustapildi peale*/
 .bottombar {
     position: absolute;
     

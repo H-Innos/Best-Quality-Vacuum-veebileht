@@ -1,12 +1,18 @@
-// Henrik Innos 2022
+/* Viited:
+    https://stackoverflow.com/a/18305980
+    https://www.codeinwp.com/snippets/add-event-listener-to-multiple-elements-with-javascript/
+    Henrik Innos 2022
+*/
+
 function initialize()
 {
-    let btns = document.querySelectorAll('button');
+    let btns = document.querySelectorAll('button'); //valib iga button elemendi lehel
 
+    
     btns.forEach(function (i) {
-        i.addEventListener('click', function() {
+        i.addEventListener('click', function() {    //nupu vajutusel muudab nupu teksti 2.5 sekundiks
             i.textContent = 'Lisatud ostukorvi'
-            setTimeout(function() {
+            setTimeout(function() {                 
                 i.textContent = 'Osta'
             }, 2500)
         });
