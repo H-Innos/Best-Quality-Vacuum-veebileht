@@ -1,5 +1,3 @@
-
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-vertical2_btn*/
 .banner {
   background-image: url('pildid/pilt.jpg');
   background-repeat: no-repeat;
@@ -7,6 +5,7 @@
   background-size: cover;
   height: 1000px;
 }
+
 button {
   border: none;
   color: white;
@@ -55,7 +54,7 @@ font-size: 20px;
 }
 .sisu {
     text-align: center;
-    color: white;'
+    color: white;
 }
 
 .bottombar2 {

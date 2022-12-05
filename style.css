@@ -47,7 +47,6 @@ h5{
     position: relative;
     list-style-type: none;
     margin: 0;
-    margin: 0px 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -64,15 +63,23 @@ h5{
     padding: 14px 16px;
     text-decoration: none;
     }
-  
-/* Muuda lingi värvi hoverimisel */
-.navbar-item a:hover {
-    background-color: #111;
-    }
-
-/* Muuda lingi värv peale aktiveerimist */
-.active {
-    background-color: #111 ;
+a:active {
+   color: black;
+}
+.kriips {
+  display: inline-block;
+  padding-bottom:0px;
+  background-image: linear-gradient(#FFF 0 0);
+  background-position: 0 100%;
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
+}
+.kriips:hover {
+  background-position: 100% 100%;
+  background-size: 100% 3px;
 }
 
 .bottombar {
