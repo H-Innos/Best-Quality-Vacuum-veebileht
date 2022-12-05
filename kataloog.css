@@ -1,10 +1,12 @@
-/*taustapilt*//**/
-.background {
-  background-image: url('pildid/pilt2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+/*taustapilt*/
+.pilt {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
 }
+
 /*galerii tootekaartide jaoks, määrab paigutuse*/
 .gallery{
   display: flex;
@@ -65,4 +67,3 @@ p{
   font-size: 20px;
   color: #737373;
 }
-

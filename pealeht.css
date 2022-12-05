@@ -1,9 +1,10 @@
 /*taustapilt*/
-.background {
-  background-image: url('pildid/pilt.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+.pilt {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
 }
 /*"Poodi" nupp, mis viib kataloogi*/
 button {
@@ -36,10 +37,10 @@ button:hover {
 }
 /*Kast kuhu sisse läheb nupp, määrab nupu paigutuse*/
 .nupukast {
+   z-index: 2;
   display:flex;
   justify-content: center;
   align-items:center;
-  margin-bottom: 100px;
   color: white;
 }
 /*Muudab nupukasti teksti ääre suuremaks*/
@@ -61,4 +62,8 @@ button:hover {
   align-items:center;
   color: white;
 }
-
+/*stickib alumise riba lehe alla*/
+.bottombar {
+    position: absolute;
+    bottom: -50px;
+}
