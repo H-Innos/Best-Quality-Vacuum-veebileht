@@ -1,3 +1,4 @@
+/* teksti kujundus, suurus, paigutus */
 .tekst {
     color: white;
     font-size: 19px;
@@ -10,17 +11,20 @@
     text-align: justify;
 }
 
+/* container, lehe elemendid ja relatiivne vormindus ehk ei mõjuta ülejäänud layout'i */
 .k {
     position: relative;
     width: 100%;
 }
 
+/* taustapildi kujundus */
 .pilt {
     display: block;
     width: 100%;
     height: auto;
 }
 
+/* overlay ehk tekstivälja ilmumine pildile */
 .yle {
     position: absolute;
     bottom: 0;
@@ -33,12 +37,13 @@
     transition: .5s ease;
 }
 
+/* kursoriga peale liikudes teostab overlay efekti */
 .k:hover .yle {
     height: 100%;
 }
 
+/* teksti päise kujundus, suurus, paigutus */
 .slogan {
-    margin-top: 30px;
     text-align: center;
     color: white;
     font-size: 30px;
