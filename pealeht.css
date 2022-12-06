@@ -1,10 +1,7 @@
 /*taustapilt*/
-.pilt {
-    display: block;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    position: absolute;
+body {
+  background-image: url("pildid/pilt.jpg");
+  background-size: cover;
 }
 /*"Poodi" nupp, mis viib kataloogi*/
 .nupp {
@@ -25,9 +22,9 @@
 /*Kast kuhu sisse läheb pealehe tekst, blurrib taustapildi*/
 .tekstikast {
   display:flex;
+  margin-top: 10%;
   justify-content: center;
   align-items:center;
-  margin-top: 270px;
   border: 1px solid #f2f2f2;;
   box-shadow: 0 0 10px 10px rgba(0,0,0, 0.2);
   background-color: rgba(0,0,0, 0.2);
@@ -64,5 +61,5 @@
 /*stickib alumise riba lehe alla*/
 .bottombar {
     position: absolute;
-    bottom: -50px;
+    bottom: 0px;
 }
